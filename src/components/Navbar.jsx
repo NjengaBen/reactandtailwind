@@ -16,6 +16,7 @@ function Navbar() {
         <li className="p-4">Resources</li>
         <li className="p-4">About</li>
         <li className="p-4">Contacts</li>
+        <li className="p-4">Address</li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -33,7 +34,8 @@ function Navbar() {
           <li className="p-4 border-b border-gray-600">Company</li>
           <li className="p-4 border-b border-gray-600">Resources</li>
           <li className="p-4 border-b border-gray-600">About</li>
-          <li className="p-4">Contacts</li>
+          <li className="p-4 border-b border-gray-600">Contacts</li>
+          <li className="p-4">Address</li>
         </ul>
       </div>
     </div>
